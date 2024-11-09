@@ -12,11 +12,11 @@ body {
 }
 
 .header {
+    background-color: #080863;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 20px 80px;
-    margin-bottom: 40px;
 }
 
 .header_logo a {
@@ -27,7 +27,7 @@ body {
 
 .header_logo a, .header_item_link {
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 
 .header_navigation {
