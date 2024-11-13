@@ -17,6 +17,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 80px;
+    height: 100px;
 }
 
 .header_logo a {
@@ -38,4 +39,41 @@ body {
     list-style: none;
     display: flex;
     justify-content: space-between;
+}
+
+.header-navigation-mobile {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+.main {
+    background-color: aquamarine;
+    min-height: calc(100vh - 100px);
+}
+
+.contenedor {
+    width: 80%;
+}
+
+.layout {
+    display: flex;
+}
+
+.barra_lateral {
+    background-color: aqua;
+    width: 20%;
+    border-right: 1px solid;
+    min-height: 100vh;
+}
+@media (max-width: 992px) {
+    .header_navigation {
+        width: 50%;
+    }
+    .barra_lateral {
+        display: none;
+    }
+
 }
